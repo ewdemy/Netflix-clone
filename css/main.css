@@ -10,7 +10,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: #fff
 }
 
@@ -42,7 +42,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/capa-house.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/capa-godizila.jpg");
     background-size: cover;
     height: 86vh;
 
@@ -58,9 +58,10 @@ header nav a:hover{
 }
 
 .filme-principal .titulo{
+    color: #112337;
     margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 60px;
+    font-family: 'Impact', Arial, sans-serif;
 }
 
 .botao{
@@ -95,4 +96,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
 }
